@@ -1,1 +1,1 @@
-Just a copy of whatsaap chat window using only HTML & CSS
+Just a copy of whatsapp chat window using only **HTML** & **CSS**
