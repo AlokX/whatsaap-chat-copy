@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 h1{
     color: #25d366;
 }
@@ -80,42 +84,44 @@ p{
 }
 .foot{
     background-image: url('chat\ background.png');
-    background-color: #ff0000;
-    padding: 2px 2px 70px 10px;
+    /* background-color: rgb(118, 117, 214); */
+    /* padding: 2px 2px 70px 10px; */
     border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .foot>.type{
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 15px;
     color: #647981;
     border-radius: 50px;
-    width: 80%;
+    flex-grow: 1;
     margin-right: 7px;
-    float: left;
+    margin-left: 10px;
+    margin-bottom: 7px;
 }
 #emoji{
     border-radius: 100px;
     float: left;
-    padding-right: 25px;
+    margin-right: 22px;
 }
 #attach{
-    padding-left: 0px;
+    margin-right: 5px;
     /* padding-right: 70px; */
     float: right;
 }
 #camera{
-    padding-left: 15px;
-    padding-right: 10px;
+    /* padding-left: 15px;
+    padding-right: 10px; */
     /* padding-right: 70px; */
+    margin-left: 15px;
     float: right;
 }
-.foot>img{
-    border-radius: 100px;
-    /* display: inline; */
-    float: right;
+#mic{
+    border-radius: 100px; 
     margin-right: 10px;
+    margin-bottom: 7px;
     
+
 }
-.foot>span{
-    margin-right: 70px;
-}
+
